@@ -7,6 +7,8 @@ using Redis as store mechanism for super fast data retrieval in the implementati
 prerequisite
 - Golang installed on machine
 - Redis Installed on machine
+- Before running main.go file, please configure store_service.go file according to the redis
+  setup done in your own machine.
 
 You can just clone the project and run main.go file to see in effect.
 
