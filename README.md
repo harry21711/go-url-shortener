@@ -19,3 +19,10 @@ curl --location --request POST 'http://localhost:9808/create-short-url' \
 --data-raw '{
     "long_url": "https://www.google.com"
 }'
+
+After execution above command you should get result as below.
+
+{
+    "message": "short url created successfully",
+    "short_url": "http://localhost:9808/hB5TnJXi"
+}
