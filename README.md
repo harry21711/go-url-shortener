@@ -1,5 +1,5 @@
 # go-url-shortener
-This is the sample project to create url shortner of long url
+This project describes how to create url shortner of long url.
 
 This project shows how to write a url shortener in Go programming language
 using Redis as store mechanism for super fast data retrieval in the implementation.
