@@ -21,7 +21,7 @@ var (
 func InitializeStore() *StorageService {
 	redisClient := redis.NewClient(&redis.Options{
 		Addr:     "localhost:6379",
-		Password: "qGFmeU0Zgp/KASrv5bAcsQqaVh2kiQg4Cmbs8TThwnzst8fXjGCOTy+V4qYqg6UfMzMfWuutfo/2ib8B",
+		Password: "",
 		DB:       0,
 	})
 
